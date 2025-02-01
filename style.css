@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: border-box;
+    /* the padding or border given to any element should be counted in the height and width not outside it */
+  }
+  body {
+    background-color: #f3a0cb;
+    /* comment out this tag to see te change  */
+  }
+  .navbar {
+    height: 58px;
+    background-color: #0f1111;
+    color: white;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-logo {
+    height: 50px;
+    width: 100px;
+  }
+  .logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+  }
+  .border {
+    border: 2px solid transparent;
+  }
+  .border:hover {
+    border: 1.5px solid white;
+  }
+  /* !!!! BOX 2 !!!! */
+  .add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+  }
+  .add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+  }
+  .add-icon {
+    display: flex;
+    align-items: center;
+  }
+  /* !!!! BOX 3!!!! */
+  .nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+  }
+  .nav-search:hover {
+    border: 2px solid #f08800;
+  }
+  .search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+  .search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  .search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f08800;
+    color: rgb(12, 12, 69);
+    font-size: 1.25rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  /* BOX-4 and six */
+  span {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+  nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  /* !!!! BOX 6 !!!! */
+  .nav-cart i {
+    font-size: 2rem;
+  }
+  .nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 4px;
+  }
+  /* !!!! 2nd DIV !!!!*/
+  .panel {
+    height: 38px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .panel-all {
+    padding: 2px;
+  }
+  .panel-ops a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    margin-left: 0px 2px 0px 15px;
+  }
+  .panel-ops {
+    width: 75%;
+    font-size: 0.85rem;
+  }
+  .panel-deals {
+    padding: 2px;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  /* !!!! HERO SECTION !!!! */
+  /* .whole-content{
+    width: 1225px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  } */
+  .hero-section {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hero-message {
+    background-color: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  /* !!!! Shop Section !!!! */
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f3a0cb;
+  }
+  .box {
+    /* border: 2px solid black; */
+    height: 360px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+  }
+  .box-content {
+    margin-left: 1rem;
+    /* border: 2px solid black; */
+    height: 340px;
+    width: 270px;
+  }
+  .heading {
+    /* height: 30px; */
+    width: 260px;
+    margin: 0.2rem 0.2rem 0.8rem 0rem;
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    font-size: 11px;
+    font-weight: 700;
+    /* padding: 5px; */
+  }
+  .img-container {
+    height: 300px;
+    width: 280px;
+    /* border: 2px solid black; */
+    /* margin: 0.1rem; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img-container2 {
+    height: 100px;
+    width: auto; 
+    /* border: 2px solid black; */
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    display: flex; 
+    /* gap: 0.5rem;  */
+    align-items: center; 
+  }
+  
+  .imgA {
+    height: 140px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+  }
+  .imgB{
+    height:60px;
+    width: 85px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 2px;
+    /* display: inline-block; */
+  
+    /* margin-top: 0.2rem;
+    margin-left: 0.2rem; */
+  }
+  
+  .content1 {
+    height: 135px;
+    width: 130px;
+    /* border: 2px solid black; */
+    margin: 1px;
+  }
+  .content2{
+    height:80px;
+    width:90px ;
+    /* border: 2px solid black; */
+  }
+  .img1 {
+    height: 100px;
+    width: 120px;
+    /* border: 2px solid black; */
+    margin-top: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+  }
+  .chair {
+    height: 12px;
+    columns: #100f11;
+    font-size: 11px;
+    margin: 0rem 0.5rem 0rem 0rem;
+    font-weight: 400;
+    /* border: 1px solid black; */
+  }
+  .box-content a {
+    color: #0000ee;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .box-img {
+    height: 290px;
+    width: 255px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    margin-right: 1rem;
+    /* margin-left:  1rem ; */
+    margin-bottom: 1rem;
+    /* border: 2px solid black; */
+  }
+  /* !!! Footer !!! */
+  footer {
+    height: 16px;
+    margin-top: 15px;
+  }
+  .foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+  .foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  .foot-panel2 a {
+    text-decoration: none;
+    color: #dddddd;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  
+  .foot-panel3 {
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .pages {
+    padding-top: 25px;
+  }
+  .pages a {
+    text-decoration: none;
+    color: white;
+  }
+  .copyright {
+    padding: 5px;
+  }
+  
